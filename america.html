@@ -1,0 +1,43 @@
+<!doctype html>
+
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+    <title>Esra's United States Trip</title>
+    <img src="us_flag.png" alt="US Flag" style="width:400px;height:300px;">
+  </head>
+<body>
+<hr>
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/98H5AN_vfOY" frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<hr>
+
+      <p>Click the button to display relevant information about America.</p>
+      <button onclick="myFunction()">Population</button>
+      <button onclick="myFunction2()">GDP</button>
+      <button onclick="myFunction3()">Capital</button>
+      <p id="output"></p>
+    </center>
+    <hr>
+      <script>
+      function myFunction() {
+        document.getElementById("output").innerHTML = "324,459,463";
+      }
+    
+      function myFunction2() {
+        document.getElementById("output").innerHTML = "20,494,050 (US$million)";
+      }
+ 
+      function myFunction3() {
+        document.getElementById("output").innerHTML = "Washington DC";
+      }
+
+      </script>
+
+<a href="index.html"><img src="arrow.jpg" width="82" height="86" title="Back"></a>
+
+</body>
+
+</html>
